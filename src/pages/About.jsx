@@ -12,7 +12,7 @@ const About = () => {
 
     </h1>
     <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-      <p> junior software engineer, believes in hands-on learning by building stuff.</p>
+      <p> believes in hands-on learning by building stuff.</p>
     </div>
 
     <div className='py-10 flex flex-col'>

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla,phone,data,etch,calc,drumkit,rps,simon } from "../assets/images";
 import {
     car,
     contact,
@@ -109,6 +109,8 @@ export const skills = [
     // }
 ];
 
+
+
 // export const experiences = [
 //     {
 //         title: "React.js Developer",
@@ -184,45 +186,52 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: phone,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'LinguaSync',
+        description: 'developed a cli realtime voice to voice translator... currently en-jp.(future plans to include more)',
+        link: 'https://github.com/Yashwanth12321/LinguaSyncV2',
     },
     {
-        iconUrl: threads,
+        iconUrl: data,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Synthetic data generator',
+        description: 'Developed a multipurpose synthetic data generator , using a variety of schemas.',
+        link: 'https://github.com/Yashwanth12321/SynthGen',
     },
     {
-        iconUrl: car,
+        iconUrl: calc,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'basic calculator',
+        description: 'built a very basic calculator',
+        link: 'https://github.com/Yashwanth12321/Calculator',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: etch,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Etch-a-Sketch',
+        description: 'kind of sketch pad and etch a sketch',
+        link: 'https://github.com/Yashwanth12321/Etch-a-Sketch',
     },
     {
-        iconUrl: estate,
+        iconUrl: drumkit,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Drum-kit',
+        description: 'build a basic drum kit to practice event listeners and dom manipulation.',
+        link: 'https://github.com/Yashwanth12321/drum-kit',
     },
     {
-        iconUrl: summiz,
+        iconUrl: simon,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'simon Game',
+        description: 'built a simon game to practice event listeners and dom manipulation',
+        link: 'https://github.com/Yashwanth12321/simon',
+    },
+    {
+        iconUrl: rps,
+        theme: 'btn-back-yellow',
+        name: 'rps game',
+        description: 'built a rock paper scissor game to practice event listeners and dom manipulation.',
+        link: 'https://github.com/Yashwanth12321/rock-paper-scissor',
     }
 ];
