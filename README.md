@@ -13,7 +13,16 @@ services->emailjs
 
 hosted->netlify,vercel
 
-# desc
+# description
 
 project showcasing frontend skills
 -single page application(SPA)
+
+
+# future plans
+
+dockerise this react application, build its image and push it to dockerhub
+
+incoorporate more 3d models available in sketchfab for more visually appealing effects
+
+apply framer motions for extra ux
